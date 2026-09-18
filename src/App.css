@@ -1,0 +1,30 @@
+:root {
+  --coffee: #3b2118;
+  --brown: #793b16;
+  --orange: #c95725;
+  --peach: #d99055;
+  --cream: #f3c687;
+  --mist: #ffe1af;
+  --ink-soft: #694936;
+  --line: #c78f52;
+}
+
+* { box-sizing: border-box; }
+body { background: #f3c687; color: var(--coffee); font-family: Arial, Helvetica, sans-serif; }
+button, input { font: inherit; }
+.App { min-height: 100vh; overflow: hidden; }
+
+.site-header { align-items: center; border-bottom: 1px solid var(--line); display: flex; height: 102px; justify-content: space-between; margin: 0 auto; max-width: 1260px; padding: 0 28px; }
+.brand-logo { display: block; height: 82px; width: 150px; }.brand-logo img { height: 100%; object-fit: contain; width: 100%; }
+.main-nav { display: flex; gap: 30px; margin-left: auto; margin-right: 35px; }.main-nav a { color: var(--coffee); font-size: 11px; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }.main-nav a:hover { color: var(--orange); }
+.cart-button { align-items: center; background: var(--coffee); border: 0; border-radius: 4px; color: var(--cream); cursor: pointer; display: inline-flex; font-size: 11px; font-weight: 800; gap: 10px; letter-spacing: .1em; padding: 11px 11px 11px 15px; text-transform: uppercase; transition: background .2s ease, transform .2s ease; }.cart-button:hover { background: var(--brown); transform: translateY(-2px); }.cart-button:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }.cart-button span { align-items: center; background: var(--orange); border-radius: 3px; color: #fff; display: inline-flex; font-size: 9px; height: 23px; justify-content: center; width: 25px; }
+
+.home-page { margin: 0 auto; max-width: 1260px; padding: 76px 70px 128px; position: relative; }.home-page::before { color: var(--orange); content: 'A LITTLE DIGITAL STORE'; font-size: 10px; font-weight: 800; letter-spacing: .2em; position: absolute; right: 70px; top: 83px; }.eyebrow { color: var(--ink-soft); font-size: 10px; font-weight: 800; letter-spacing: .18em; margin: 0 0 24px; text-transform: uppercase; }.eyebrow span { color: var(--orange); font-size: 16px; margin-left: 7px; }
+.home-page h1 { font-family: Georgia, serif; font-size: clamp(70px, 10vw, 142px); font-weight: normal; letter-spacing: -.08em; line-height: .82; margin: 54px 0 0; max-width: 1000px; }.home-page h1 em { color: var(--brown); font-style: italic; }.home-page > p:not(.eyebrow) { color: var(--ink-soft); font-size: 15px; line-height: 1.75; margin: 36px 0; max-width: 460px; }.home-links { display: flex; flex-wrap: wrap; gap: 12px; }.home-links a { background: var(--peach); border: 1px solid var(--brown); color: var(--coffee); font-size: 11px; font-weight: 800; padding: 13px 17px; text-decoration: none; transition: background .2s ease, color .2s ease; }.home-links a:hover { background: var(--coffee); color: var(--cream); }
+
+footer { align-items: center; border-top: 1px solid var(--line); color: var(--ink-soft); display: flex; font-size: 10px; justify-content: space-between; letter-spacing: .08em; margin: auto; max-width: 1200px; padding: 28px 0 34px; text-transform: uppercase; } footer > span:first-child { color: var(--brown); font-size: 17px; font-weight: 900; letter-spacing: -.06em; }.footer-dot { color: var(--orange); }
+
+.drawer-backdrop { background: rgba(59,33,24,.42); inset: 0; position: fixed; z-index: 5; }.cart-drawer { background: var(--cream); border-left: 1px solid var(--brown); height: 100%; max-width: 420px; padding: 38px; position: absolute; right: 0; top: 0; width: 100%; }.drawer-header { display: flex; justify-content: space-between; }.drawer-header .eyebrow { background: var(--peach); color: var(--brown); display: inline-block; padding: 7px 9px; }.drawer-header h2 { font-family: Georgia, serif; font-size: 49px; font-weight: normal; letter-spacing: -.07em; margin: 0; }.drawer-header h2 span { color: var(--orange); font: bold 14px Arial; vertical-align: top; }.close-button { background: var(--brown); border: 0; color: #fff; cursor: pointer; font-size: 25px; height: 34px; width: 34px; }.empty-bag { align-items: center; color: var(--ink-soft); display: flex; flex-direction: column; font-family: Georgia, serif; font-size: 22px; height: 65%; justify-content: center; text-align: center; }.empty-bag span { color: var(--orange); font-size: 34px; margin-bottom: 17px; }.cart-items { border-top: 1px solid var(--line); margin-top: 40px; }.cart-item { align-items: center; border-bottom: 1px solid var(--line); display: flex; gap: 14px; padding: 14px 0; }.cart-thumb { background: var(--mist); height: 62px; overflow: hidden; width: 62px; }.cart-thumb img { height: 100%; object-fit: cover; width: 100%; }.cart-item h3 { font-family: Georgia, serif; font-size: 15px; font-weight: normal; margin: 0 0 5px; }.cart-item p { color: var(--ink-soft); font-size: 12px; margin: 0; }.cart-item > button { background: none; border: 0; color: var(--ink-soft); cursor: pointer; font-size: 20px; margin-left: auto; }.cart-total { border-top: 1px solid var(--brown); display: flex; font-size: 12px; justify-content: space-between; margin-top: 20px; padding: 25px 0; }.checkout-button { background: var(--brown); border: 0; color: #fff; cursor: pointer; display: flex; font-size: 12px; font-weight: 800; justify-content: space-between; padding: 16px 19px; text-transform: uppercase; width: 100%; }.checkout-button:hover { background: var(--coffee); }
+
+@media (max-width: 700px) { .site-header { height: 82px; padding: 0 18px; }.brand-logo { height: 68px; width: 126px; }.main-nav { margin: 0 9px 0 auto; }.main-nav a { display: none; }.main-nav a:first-child { display: block; }.home-page { padding: 54px 20px 95px; }.home-page::before { position: static; display: block; margin-bottom: 56px; }.home-page h1 { font-size: 73px; margin-top: 0; }.home-page > p:not(.eyebrow) { font-size: 14px; }.home-links { align-items: flex-start; flex-direction: column; gap: 9px; }.home-links a { width: max-content; } footer { align-items: flex-start; flex-direction: column; gap: 15px; margin: 0 20px; padding: 25px 0; }.cart-drawer { padding: 27px 20px; } }
+.checkout-button { color: #fffaf3; }

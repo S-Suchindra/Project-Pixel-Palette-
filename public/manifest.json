@@ -1,0 +1,16 @@
+{
+  "short_name": "Pixel Palette",
+  "name": "Pixel Palette Digital Goods",
+  "icons": [
+    {
+      "src": "pixel-palette-folder-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f6f4ee",
+  "background_color": "#f6f4ee"
+}

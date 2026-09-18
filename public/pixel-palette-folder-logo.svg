@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel Palette Since 2026</title>
+  <desc id="desc">A warm brown folder icon above the Pixel Palette name.</desc>
+  <rect width="600" height="330" fill="#fffaf3"/>
+  <g transform="translate(170 18)" stroke="#a9570d" stroke-width="9" stroke-linejoin="round">
+    <path d="M38 34V21c0-9 7-16 16-16h82l31 29h67c12 0 22 10 22 22v25H38z" fill="#f2d5b7"/>
+    <path d="M20 64c0-13 11-24 24-24h213c13 0 23 10 22 23l-8 93c-1 16-14 29-30 29H53c-17 0-30-12-31-29z" fill="#b96110"/>
+    <path d="M20 64c0-13 11-24 24-24h213c13 0 23 10 22 23l-8 93c-1 16-14 29-30 29H53c-17 0-30-12-31-29z" fill="#c8751e" opacity=".65"/>
+    <path d="M42 86c29 12 54 19 75 20 22 1 38-7 51-24 8-11 18-17 31-17 19 0 38 12 55 34 11 14 20 29 28 45" fill="none" stroke="#914a0b" stroke-width="10"/>
+    <path d="M51 110c20 9 39 14 56 14 20 0 35-7 48-22" fill="none" stroke="#f4c889" stroke-linecap="round" stroke-width="8"/>
+  </g>
+  <g fill="#fffaf3">
+    <path d="M218 94l7 16 17 7-17 7-7 17-7-17-17-7 17-7z"/>
+    <path d="M282 66l6 14 15 6-15 6-6 15-6-15-15-6 15-6z"/>
+    <path d="M335 108l6 14 15 6-15 6-6 15-6-15-15-6 15-6z"/>
+  </g>
+  <text x="300" y="267" fill="#984e0b" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900" letter-spacing="1.5" text-anchor="middle">PIXEL PALETTE</text>
+  <text x="300" y="297" fill="#e47722" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" letter-spacing="6" text-anchor="middle">SINCE 2026</text>
+</svg>
